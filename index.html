@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ad618d076d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="message">
+        <p>
+            <h3 style="text-align: center; font-weight: bold;">Pass The Message</h3>
+        </p>
+        <p style="border-bottom:2px solid gray ;"></p>
+        <p>
+            <label for="messageinput">Enter a Mesage</label>
+            <br>
+            <button style="border-radius: 5px ;"><i class="fa-solid fa-message"></i></button>
+            <input type="text" id="messageinput">
+        </p>
+        <p>
+            <button onclick="getmessage()">Submit</button>
+        </p>
+        <p id="messageoutput" style="text-align: center; text-transform: uppercase;"> </p>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
